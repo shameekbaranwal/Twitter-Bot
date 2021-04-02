@@ -1,0 +1,19 @@
+{
+  "name": "fakespeare-bot",
+  "version": "1.0.0",
+  "description": "A simple twitter bot that, whenever mentioned, will reply with a random Shakespeare quote.",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@shameekbaranwal",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "csv-parse": "^4.15.3",
+    "dotenv": "^8.2.0",
+    "fs": "0.0.1-security",
+    "node-fetch": "^2.6.1",
+    "twit": "^2.2.11"
+  }
+}
