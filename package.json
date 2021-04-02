@@ -1,7 +1,7 @@
 {
-  "name": "fakespeare-bot",
+  "name": "@ROASTME_BOT",
   "version": "1.0.0",
-  "description": "A simple twitter bot that, whenever mentioned, will reply with a random Shakespeare quote.",
+  "description": "A simple twitter bot that, whenever mentioned, will reply with an insult.",
   "main": "bot.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
