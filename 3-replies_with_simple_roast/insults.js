@@ -1,14 +1,9 @@
-const fetch = require('node-fetch');
+const axios = require('axios');
 
 async function getInsult(name) {
-    const param = {
-        method: 'GET',
-    }
     const api_url = `https://insults.tr00st.co.uk/phrases/so/action_and_target/?target=${name}&pronoun=they`;
-
-    const response = await fetch(api_url, param);
-    const data = await response.json();
-    return data;
+    const response = await axios.get(api_url);
+    return response.data;
 }
 
 module.exports = {
